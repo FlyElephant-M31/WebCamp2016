@@ -1,0 +1,514 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WebCamp 2016</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#fff">
+	<link rel="stylesheet" media="all" href="css/style.css" >
+	<script src="js/app.js"></script>
+	<link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<script type="text/javascript">(function () {
+	if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+	if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+		var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+		s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+		s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+		var h = d[g]('body')[0];h.appendChild(s); }})();
+</script>
+
+	<header class="header">
+		<div class="header__head is-fixed js-header" >
+				<div class="header__head-inner">
+					<a href="index.html" class="header__logo"></a>
+					<nav>
+						<div class="header__menu js-menu-open">
+							<ul class="header__menu-inner">
+								<li class="header__link"><a href="index.html#theme">О конференции</a></li>
+								<li class="header__link ic-arrow js-program"><a href="#" onclick="return false" class="is-active">Программа</a>
+									<table class="header__submenu">
+										<tr>
+											<td class="header__course-date">29 июля</td>
+											<td class="header__course-date">30 июля</td>
+											<td class="header__course-date">31 июля</td>
+										</tr>
+										<tr>
+											<td  class="header__submenu__link is-bg-green"><a href="devops.html#theme">devops</a></td>
+											<td  class="header__submenu__link is-bg-violet"><a href="pm.html#theme">pm</a></td>
+											<td  class="header__submenu__link is-bg-darkblue"><a href="bizdev.html#theme">bizdev: <span>product</span></a></td>
+										</tr>
+										<tr>
+											<td  class="header__submenu__link is-bg-yellow"><a href="front-end.html#theme">front-end</a></td>
+											<td  class="header__submenu__link is-bg-purple"><a href="python.html#theme">python</a></td>
+											<td  class="header__submenu__link is-bg-skyblue"><a href="php.html#theme">php</a></td>
+										</tr>
+									</table>
+								</li>
+								<li class="header__link"><a href="registration.html">Регистрация</a></li>
+								<li class="header__link"><a href="#contacts">Контакты</a></li>
+								<li class="header__link"><a href="#sponsors">Партнеры</a></li>
+								<li class="header__link"><a href="faq.html">Участникам</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="header__social js-soc">
+						<a href="https://vk.com/webcamp" class="header__ic ic-tw"></a>
+						<a href="https://www.facebook.com/WebCamp" class="header__ic ic-fb"></a>
+					</div>
+					<div class="header__language js-lang">
+
+					</div>
+					<div class="header__menu-close js-menu-close"></div>
+				</div>
+		</div>
+		<div class="header__inner">
+			<h1 class="header__title">WebCamp 2016</h1>
+			<p class="header__description"></p>
+			<p class="header__date">29-31 июля, Одесса</p>
+			<a href="registration.html" class="header__button">Ранняя регистрация</a>
+			<div class="header__social">
+				</div>
+
+				<div class="header__boxes-wrap">
+					<div class="header__box">
+						<a href="devops.html#theme" class="header__item is-bg-green">devops</a>
+						<a href="front-end.html#theme" class="header__item is-bg-yellow">front-end</a>
+						<div class="header__course-date">29 июля</div>
+					</div>
+					<div class="header__box">
+						<a href="pm.html#theme" class="header__item is-bg-violet">pm</a>
+						<a href="python.html#theme" class="header__item is-bg-purple">python</a>
+						<div class="header__course-date">30 июля</div>
+					</div>
+					<div class="header__box">
+						<a href="bizdev.html#theme" class="header__item is-bg-darkblue is-active">bizdev: <span>Product</span></a>
+						<a href="php.html#theme" class="header__item is-bg-skyblue">php</a>
+						<div class="header__course-date">31 июля</div>
+					</div>
+				</div>
+
+				<a href="#theme" class="anchor"></a>
+			</div>
+		</div>
+	</header>
+
+	<div class="theme-bizdev" id="theme">
+		<div class="wrapper">
+			<p class="theme-bizdev__title">
+			WebCamp: <span class="theme-bizdev__name"><span>bizdev:</span> product</span>
+			</p>
+			<div class="theme-bizdev__coord">
+				<div class="theme-bizdev__date">31 июля</div>
+				<div class="theme-bizdev__place">Одесса, Греческая, 1а</div>
+			</div>
+			<p class="theme-bizdev__description">Успешные продуктовые компании
+				Украины поделятся секретами работы на зарубежных рынках и <br>на практических примерах расскажут об организации эффективного
+				биздева для работы с B2B и B2C клиентами.
+				<br><strong> Для кого:</strong> Sales/Business development managers, Marketers, IT entrepreneurs
+			</p>
+			<a href="https://docs.google.com/forms/d/1HXgwxYcghDnPp6zfjm14fC_gGLDDn-5_BsVcQsf-IHg/viewform" class="theme-python__button bt-darkblue">Подать доклад</a>
+		</div>
+	</div>
+
+	<!--<div class="program">
+		<div class="program__title">программа</div>
+		<div class="program__comment"></div>
+		<ul class="program__list">
+			<li class="act">
+				<div class="act__inner">
+					<div class="act__time">8:30</div>
+					<div class="act__theme">Регистрация</div>
+				</div>
+			</li>
+			<li class="act">
+				<div class="act__inner">
+					<div class="act__time">9:30</div>
+					<div class="act__theme">Открытие конференции</div>
+				</div>
+			</li>
+			<li class="speaker-wrapper">
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">10:15</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Александр Кувшинов</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor ac
+									viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Распознавание лиц: от EigenFaces до DeepFace</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor
+									tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum
+									dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">11:05</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Даниил Братченко</div>
+								<div class="speaker__position">Sr. Engineer в Samsung R&D, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor ac
+									viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Использование Deep Learning для автоматического тегирования изображений</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor ac
+									viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+			</li>
+			<li class="act">
+				<div class="act__inner">
+					<div class="act__time">11:55</div>
+					<div class="act__theme">Кофе-брейк</div>
+				</div>
+			</li>
+			<li class="speaker-wrapper">
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">13:05</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Mykola Pechenizkiy</div>
+								<div class="speaker__position"> Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor ac viverra
+									vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Синтаксический анализ природного языка: Citius, Altius, Fortius!</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor
+									ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">13:55</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Игорь Костюк</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Тематическое моделирование (Topic Modeling)</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+			</li>
+			<li class="act">
+				<div class="act__inner js-open">
+					<div class="act__time">15:00</div>
+					<div class="act__theme">Обеденный перерыв</div>
+				</div>
+			</li>
+			<li class="speaker-wrapper">
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">15:50</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Тарас Середа</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor
+									ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit
+									amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Стабильная кластеризация. Требования и алгоритмы решения</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">16:40</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Артем Шкловец</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit. Nam tempor tortor
+									ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis. Lorem ipsum dolor sit
+									amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Deep Learning и биоинформатика: аспекты применения</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+			</li>
+			<li class="act">
+				<div class="act__inner js-open">
+					<div class="act__time">17:00</div>
+					<div class="act__theme">Кофе-брейк</div>
+				</div>
+			</li>
+			<li class="speaker-wrapper">
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">17:50</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Yan Zhang</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Deep Learning Fundamentals and Emerging Trends (ENG)</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+				<div class="speaker">
+					<div class="speaker__inner js-open">
+						<div class="speaker__time">18:40</div>
+						<div class="speaker__description">
+							<div class="speaker__left-col">
+								<div class="speaker__name">Александр Панченко</div>
+								<div class="speaker__position">Computational Linguist at Grammarly, Киев</div>
+								<p class="speaker__resume">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+							<div class="speaker__right-col">
+								<div class="speaker__theme">Построение рекомендательной системы для пользователей киноконтента</div>
+								<p class="speaker__theme-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+									Nam tempor tortor ac viverra vestibulum. Donec non mollis leo. Morbi pharetra commodo convallis.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales eros id volutpat sodales. </p>
+							</div>
+						</div>
+						<div class="speaker__photo"></div>
+						<div class="speaker__open js-open"></div>
+						<div class="speaker__close js-close"></div>
+					</div>
+				</div>
+			</li>
+			<li class="act">
+				<div class="act__inner js-open">
+					<div class="act__time">19:30</div>
+					<div class="act__theme">Закрытие конференции</div>
+				</div>
+			</li>
+		</ul>
+	</div>-->
+
+	<div class="early-registration">
+		<div class="wrapper">
+			<a href="registration.html" class="early-registration__button">Купить билеты</a>
+		</div>
+	</div>
+
+	<div class="place" id="place">
+		<div class="wrapper">
+			<p class="place__title">место проведения</p>
+			<div class="place__description">
+				<span>адрес:</span><br>Одесса, ул. Греческая, 1а<br><span>место:</span><br>Impact Hub Odessa<br><span>
+				телефон:</span><br>093 347 64 75 Александра
+				<a href="http://2gis.ua/odessa/lang/ru/routeSearch/rsType/bus/from/30.741242%2C46.46
+				766%E2%95%8E%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0%20%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0-%D0%93%D
+				0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D
+				0%B6%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB/to/30.747477%2C46.481841%E2%95%8E%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0%20
+				%D0%93%D1%80%D0%B5%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%201%D0%B0?queryState=center%2F30.737392%2C46.474856%2F
+				zoom%2F15%2FrouteTab/" class="place__link"> проложить путь </a>
+			</div>
+			<!--<div class="place__map-wrap">
+				<div class="place__map"></div>
+				<p class="place__address">ул. Греческая, 1а</p>
+			</div>-->
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:250px;width:790px;'>
+			<div id='gmap_canvas' style='height:250px;width:790px;'></div><div><small></small></div><div><small></small></div><style>#gmap_canvas
+		img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function
+		init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(46.481458,30.748002499999984),mapTypeId:
+		google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.
+				Marker({map: map,position: new google.maps.LatLng(46.481458,30.748002499999984)});infowindow = new google.
+				maps.InfoWindow({content:'<strong>WebCamp2016</strong><br>Odessa, Grecheskaya 1a<br>'});google.maps.event.addListener(marker, 'click',
+				function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+		</script>
+		</div>
+	</div>
+
+	<div class="sponsors" id="sponsors">
+		<div class="wrapper">
+			<p class="sponsors__title">спонсоры</p>
+			<a href="#" class="sponsors__button">стать спонсором</a>
+			<div class="sponsors__photos-wrap">
+				<a href="https://flyelephant.net/"><img src="img/fly3.jpg" alt="" class="sponsors__item"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="partners" id="partners">
+		<div class="wrapper">
+			<p class="partners__title">партнеры</p>
+			<a href="#" class="partners__button">стать партнером</a>
+			<div class="partners__photos-wrap">
+				<a href="http://kvazarium.com/"><img src="img/kv.jpg" alt="" class="sponsors__item"></a>
+				<a href="http://geekslab.co/events"><img src="img/gl.jpg" alt="" class="sponsors__item"></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contacts" id="contacts">
+		<div class="wrapper">
+			<p class="contacts__title">контакты</p>
+			<div class="contacts__boxes-wrap">
+				<div class="contacts__box">
+					<img src="img/dima4.png" alt="" class="contacts__photo">
+					<div class="contacts__author">Дмитрий Сподарец</div>
+					<div class="contacts__program">Формирование программы</div>
+					<a href="mailto:d.spodarets@geekslab.co" class="contacts__mail">d.spodarets@geekslab.co</a>
+					<div class="contacts__tel">+38 050 391 28 70</div>
+				</div>
+				<div class="contacts__box">
+					<img src="img/sasha4.png" alt="" class="contacts__photo">
+					<div class="contacts__author">Ковальчук Александра</div>
+					<div class="contacts__program"> Работа с участниками и спонсорами </div>
+					<a href="mailto:a.kovalchuk@geekslab.co" class="contacts__mail">a.kovalchuk@geekslab.co</a>
+					<div class="contacts__tel">+38 067 729 21 54</div>
+				</div>
+				<div class="contacts__box">
+					<img src="img/and2.jpg" alt="" class="contacts__photo">
+					<div class="contacts__author">Андрей Кудюров</div>
+					<div class="contacts__program">Работа с партнерами и медиа</div>
+					<a href="mailto:a.kudyurov@geekslab.co" class="contacts__mail">a.kudyurov@geekslab.co</a>
+					<div class="contacts__tel">+38 098 454 19 48</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="feedback">
+		<div class="wrapper">
+			<form action="//app.mailerlite.com/webforms/submit/l1d0s5" data-code="l1d0s5" method="POST" target="_blank" class="feedback__form">
+
+				<div class="field-wrap">
+					<label  for="email" class="feedback__name-field">E-mail*</label>
+					<input  name="fields[email]" type="email" id="mail" class="feedback__mail-field">
+				</div>
+				<div class="field-wrap">
+					<label for="login" class="feedback__name-field">Имя</label>
+					<input type="text" name="fields[name]" id="login" class="feedback__login-field">
+				</div>
+				<input type="hidden" name="ml-submit" value="1" />
+				<button type="submit" class="feedback__button">
+					подписаться на новости
+				</button>
+			</form>
+			<script>
+				function ml_webform_success_2240219() {
+					jQuery('.ml-subscribe-form-2240219 .ml-block-success').show();
+					jQuery('.ml-subscribe-form-2240219 .ml-block-form').hide();
+				};
+			</script>
+			<script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?v1b95327b4c33507fd28fe273ed09f436"></script>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div class="wrapper">
+			
+			<div class="footer__top-wrap">
+				<div class="footer__logo"></div>
+				<ul class="footer__date-list">
+					<li class="footer__date is-active"><a href="#">2016</a></li>
+					<li class="footer__date"><a href="http://webcamp.in.ua/2015">2015</a></li>
+					<li class="footer__date"><a href="http://webcamp.in.ua/2014/">2014</a></li>
+					<li class="footer__date"><a href="http://old.webcamp.in.ua/ru/programma2013.html">2013</a></li>
+					<li class="footer__date"><a href="http://old.webcamp.in.ua/ru/archives/webcamp_2012">2012</a></li>
+					<li class="footer__date"><a href="http://old.webcamp.in.ua/ru/archives/webcamp_2011">2011</a></li>
+					<li class="footer__date"><a href="http://old.webcamp.in.ua/ru/archives/webcamp_2010">2010</a></li>
+				</ul>
+				<div class="footer__calendar">
+	<span class="addtocalendar atc-style-blue">
+        <var class="atc_event">
+			<var class="atc_date_start">2016-07-29 9:00:00</var>
+			<var class="atc_date_end">2016-07-31 19:00:00</var>
+			<var class="atc_timezone">Europe/Kiev</var>
+			<var class="atc_title">WebCamp 2016</var>
+			<var class="atc_description">WebCamp (http://webcamp.in.ua/) - ежегодная профессиональная конференция, посвященная ведущим технологиям веб-разработки, управлению проектами и развитию бизнеса. С 29 по 31 июля конференция пройдет в Одессе уже в седьмой раз и по традиции будет состоять из ряда отельных ускоспециализированных направлений: DevOps, Front-End, PM, Python, BizDev:Product, PHP. WebCamp2016 соберет более 600 участников со всей Украины и ближнего зарубежья. Конференция рассчитана на участников уровня Middle/Senior, где у каждого будет возможность обменяться опытом, поделиться своими идеями, отлично провести время с коллегами на афтерпати и отдохнуть у Черного моря.</var>
+			<var class="atc_location">Impact Hub Odessa</var>
+			<var class="atc_organizer">GeeksLab</var>
+			<var class="atc_organizer_email">info@geekslab.co</var>
+		</var>
+    </span>
+				<div class="footer__social">
+					<div class="footer__text">поделиться</div>
+					<script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
+					<script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
+					<div class="ya-share2" data-services="vkontakte,facebook,twitter" data-counter=""></div>
+				</div>
+			</div>
+			<a href="http://kvazarium.com/" class="footer__author">Разработка Kvazarium</a>
+			<div class="footer__copyright">© WebCamp 2016</div>
+			
+		</div>
+	</footer>
+
+
+
+<!-- BEGIN  out-->
+<!-- <div class="out">
+	<i class="icon-sepa"></i>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt possimus, quod eum rerum molestiae consectetur inventore autem nisi mollitia sit at dolore quam aliquam ipsum. Hic, consequatur obcaecati facere. Consectetur.
+</div> -->
+<!-- END out-->
+</body>
+</html>
