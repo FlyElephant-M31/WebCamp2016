@@ -313,7 +313,8 @@ h1, h2 { font-family: "ubuntuB", sans-serif; line-height: 1; }
 .footer__date:last-child { margin-right: 0px; }
 .footer__date a { padding: 3px 13px; line-height: 29px; font-size: 13px; color: #9fc3da; text-decoration: none; }
 .footer__date:hover a, .footer__date.is-active a { background: #fff; color: #2c70aa; }
-.footer__calendar, .footer__social { float: left; margin-left: 45px; }
+.footer__calendar{ float: left; margin-left: 45px; }
+.footer__social { float: right; margin-left: 45px; }
 .footer__social .footer__text { margin-right: 0px; }
 .footer__social .footer__icon { margin-left: 13px; }
 .footer__text { display: inline-block; margin-right: 10px; line-height: 29px; font-size: 13px; color: #9fc3da; text-transform: uppercase; }
