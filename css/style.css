@@ -205,8 +205,8 @@ h1, h2 { font-family: "ubuntuB", sans-serif; line-height: 1; }
 .registration.is-gray { padding-top: 60px; background: #ecf0f1; }
 .registration__title { font-family: "ubuntuB", sans-serif; font-size: 36px; font-weight: bold; line-height: 1; text-transform: uppercase; margin-bottom: 40px; }
 .registration__description { padding: 0 20px; font-size: 16px; margin-bottom: 40px; }
-/*.registration .table { width: 640px; margin: 0 auto 80px; border-collapse: separate; }
-.registration .table__col:last-child { width: 110px; }
+.registration .table-widget { max-width: 640px; margin: 0 auto 80px; }
+/*.registration .table__col:last-child { width: 110px; }
 .registration .table td { height: 47px; padding-left: 25px; background: #e9e9e9; border-top: 1px solid #fff; border-bottom: 1px solid #9d9d9d; vertical-align: middle; text-align: left; font-size: 12px; }
 .registration .table td span { text-transform: uppercase; }
 .registration .table th { height: 34px; padding-left: 25px; background: #cecece; border-top: 1px solid #fff; border-bottom: 1px solid #9d9d9d; vertical-align: bottom; text-align: left; font-size: 14px; font-weight: bold; text-shadow: 0px 1px 1px #fff; }
@@ -537,7 +537,7 @@ h1, h2 { font-family: "ubuntuB", sans-serif; line-height: 1; }
 @media only screen and (max-width: 580px){
  .header{ padding: 8px 10px; } }
 @media only screen and (max-width: 560px){
- .registration table table td, .registration table table th{max-width: 50px;}
+ /*.registration table table td, .registration table table th{max-width: 50px;}*/
  .footer__logo{ float: none; margin: 0 auto 10px; }
  .footer__date{ margin-bottom: 15px; }
  .footer__date a{ font-size: 17px; padding: 3px 15.5px; }
